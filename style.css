@@ -1,136 +1,148 @@
-.nav-bg{
-    background-color: #f6ba18;
-    background:-webkit-linear-gradient(-28deg,#F5b917 0%,#F5b917 18%,#13a0b2 18%,#13a0b2 18%);
-    background: linear-gradient(-59deg,#F5b917 0%,#F5b917 16%,#13a0b2 15%,#13a0b2 17%);
+.nav-bg {
+  background-color: #f6ba18;
+  background: -webkit-linear-gradient(
+    -28deg,
+    #f5b917 0%,
+    #f5b917 18%,
+    #13a0b2 18%,
+    #13a0b2 18%
+  );
+  background: linear-gradient(
+    -59deg,
+    #f5b917 0%,
+    #f5b917 16%,
+    #13a0b2 15%,
+    #13a0b2 17%
+  );
 }
-.borde{
-    border-right: 5px solid red;  
+
+.borde {
+  border-right: 5px solid red;
 }
 .head-img {
-    background-image: url("/ITM_10003/Banner_1.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: auto;
-     
+  background-image: url("/ITM_10003/Banner_1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: auto;
 }
 .navbar-brand {
-    padding-top: 0.3125rem;
-    padding-bottom: 0.3125rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    text-decoration: none;
-    white-space: nowrap;}
-    .border-bg {
-        border: #05BFDB solid 0.5px;
-    }
-    .nav-ul {
-        column-gap: 27px;
-        font-size: 16px;
-        font-weight: 600;
-    }
-    .border-dot {
-        border-right: 2.5px dotted #05BFDB;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    .hr{
-        border: 2px solid yellow;
-        width: 14%;
-    }
-    .button{
-           border:none;
-           height: 40px;
-           border-right: black 2px;
-    }
-    .section-title-hr {
-        width: 175px;
-        height: 1px;
-        border: 3px solid #139FB1;
-        display: block;
-      }
-      .white-hr {
-        border: 1px solid rgb(255, 255, 255);
-        display: block;
-      }
-      .main-headding{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-      .circle{
-        height:161px;
-        width: 161px;
-       border: 3px solid white;
-        border-radius: 50%;
-        display: inline-block;
-      }
-      .hr-line{
-        width: 104px;
-        height: 1px;
-        border: 2px solid orange;
-        display: block;
-      }
-      .blue-circle{
-        height:161px;
-        width: 161px;
-        border: 3px solid #139FB1;
-        border-radius: 50%;
-        display: inline-block;
-      }
-      .blue-line{
-        width: 104px;
-        height: 1px;
-        border: 2px solid #139FB1 ;
-        display: block;
-      }
-  
-      .img-fluid {
-        width: 100%;
-        height: auto;
-        display: block; /* This ensures the image does not have extra space below it */
-    }
-    
-    .black-img {
-        background: url("ITM_10003/11.jpg") no-repeat center center;
-        background-size: cover; /* This will cover the entire div */
-        flex-direction: column; /* Stacks child elements vertically */
-        justify-content: space-between; /* Spreads out the children evenly */
-        padding-left: 2rem; /* Adjust padding as needed */
-    }
-    
-    /* Ensure that the parent container of .black-img has a defined height if you're using background-size: cover */
-    
- 
-.grid-templates{
-  grid-template-columns: repeat(2, 450px)
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
 }
-.grid-templates-3{
-  grid-template-columns: repeat(3, 3fr)
+.border-bg {
+  border: #05bfdb solid 0.5px;
+}
+.nav-ul {
+  column-gap: 27px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.border-dot {
+  border-right: 2.5px dotted #05bfdb;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.hr {
+  border: 2px solid yellow;
+  width: 14%;
+}
+.button {
+  border: none;
+  height: 40px;
+  border-right: black 2px;
+}
+.section-title-hr {
+  width: 175px;
+  height: 1px;
+  border: 3px solid #139fb1;
+  display: block;
+}
+.white-hr {
+  border: 1px solid rgb(255, 255, 255);
+  display: block;
+}
+.main-headding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.circle {
+  height: 161px;
+  width: 161px;
+  border: 3px solid white;
+  border-radius: 50%;
+  display: inline-block;
+}
+.hr-line {
+  width: 104px;
+  height: 1px;
+  border: 2px solid orange;
+  display: block;
+}
+.blue-circle {
+  height: 161px;
+  width: 161px;
+  border: 3px solid #139fb1;
+  border-radius: 50%;
+  display: inline-block;
+}
+.blue-line {
+  width: 104px;
+  height: 1px;
+  border: 2px solid #139fb1;
+  display: block;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+  display: block; /* This ensures the image does not have extra space below it */
+}
+
+.black-img {
+  background: url("ITM_10003/11.jpg") no-repeat center center;
+  background-size: cover; /* This will cover the entire div */
+  flex-direction: column; /* Stacks child elements vertically */
+  justify-content: space-between; /* Spreads out the children evenly */
+  padding-left: 2rem; /* Adjust padding as needed */
+}
+
+/* Ensure that the parent container of .black-img has a defined height if you're using background-size: cover */
+
+.grid-templates {
+  grid-template-columns: repeat(2, 450px);
+}
+.grid-templates-3 {
+  grid-template-columns: repeat(3, 3fr);
 }
 
 @media only screen and (max-width: 600px) {
-  .grid-templates{
-    grid-template-columns: repeat(1,0.8fr)
+  .grid-templates {
+    grid-template-columns: repeat(1, 0.8fr);
   }
-  .grid-templates-3{
-    grid-template-columns: repeat(1,1fr)
+  .grid-templates-3 {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
-.heading{
+.heading {
   width: 25rem;
 }
 @media only screen and (max-width: 600px) {
-  .heading{
+  .heading {
     width: 100%;
   }
 }
 
-.content{
+.content {
   width: 24rem;
 }
 @media only screen and (max-width: 600px) {
-  .content{
+  .content {
     width: 100%;
   }
 }
@@ -162,7 +174,7 @@
 .testimonial-carousel .item {
   text-align: center;
   padding: 30px;
-  box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
   background: #fff;
   border-radius: 4px;
   margin: 15px;
