@@ -33,12 +33,14 @@
   <body>
     <header>
       <div class="container">
-        <div id="mySidebar" class="sidebar d-block d-md-none">
+        <div class="ms-md-5">
+        <div id="mySidebar" class="sidebar d-block d-lg-none">
           <a
             href="javascript:void(0)"
-            class="closebtn d-block d-md-none"
+            class="closebtn d-block d-lg-none"
             onclick="closeNav()"
             >×</a
+            
           >
           <a href="#">About</a>
           <a href="#">Services</a>
@@ -51,7 +53,7 @@
         <div id="main">
           <button
             id="openbtn"
-            class="openbtn d-block d-md-none"
+            class="openbtn d-block d-lg-none"
             onclick="openNav()"
           >
             ☰
@@ -61,13 +63,13 @@
         <div class="row">
           <div class="col-lg-4">
             <img
-              class="logo ps-1 pt-2"
+              class="logo ps-1 pt-xl-2"
               src="/ITM_10003/Logo 1.png"
               alt="Company Logo"
             />
           </div>
           <div
-            class="col-lg-8 d-flex flex-column flex-md-row align-items-center align-items-md-end gap-3 mb-3 gap-md-3 mb-md-3"
+            class="col-lg-8 flex-column flex-md-row align-items-center align-items-md-end gap-3 mb-3 gap-md-3 mb-md-3 d-none d-md-flex header-res"
           >
             <div class="d-flex">
               <img
@@ -119,20 +121,21 @@
           </div>
         </div>
       </div>
+    </div>
     </header>
 
     <section class="head-img" id="home">
       <div class="container">
+      <div class="ms-md-5">
         <nav class="navbar navbar-expand-lg navbar-light nav-bg">
           <div class="container-fluid justify-content-center d-flex">
             <a class="navbar-brand d-block d-md-none" href="#"></a>
 
-            <div class="d-none d-md-block border-bg">
+            <div class="d-none d-lg-block border-bg">
               <ul class="navbar-nav pt-2 pb-2">
                 <div class="nav-item">
                   <nav
-                    class="nav nav-ul text-uppercase"
-                    style="font-size: 14px"
+                    class="nav nav-ul text-uppercase nav-res"
                   >
                     <a class="nav-link text-white" href="#home">home</a>
                     <div class="border-dot"></div>
@@ -161,6 +164,7 @@
               </ul>
             </div>
           </div>
+        </div>
         </nav>
         <div class="row" style="height: 565px">
           <div class="col-lg-6"></div>
@@ -198,7 +202,7 @@
     <section id="services" class="mb-5" style="background-color: #d3d3d330">
       <div class="container text-center">
         <div>
-          <h2 class="pt-4">What We Do</h2>
+          <h2 class="pt-4 font-bold">What We Do</h2>
           <div class="d-flex justify-content-center align-items-start">
             <div class="hr-blue-line"></div>
           </div>
@@ -328,12 +332,12 @@
 
     <section class="text-white">
       <div class="container-fluid g-0">
-        <div class="row m-0">
-          <div class="col-lg-6 p-0">
+        <div class="row m-0 banner-row">
+          <div class="col-lg-6 p-0 d-none d-xl-block">
             <img src="ITM_10003/Banner .png" class="img-fluid" alt="Banner" />
           </div>
-          <div class="col-lg-6 p-0 d-flex align-items-stretch bg-dark">
-            <div class="w-100 p-4">
+          <div class="col-lg-6 p-0 d-flex align-items-xl-stretch bg-dark justify-content-xl-center align-items-center banner-right">
+            <div class="p-2">
               <p class="fs-4 pt-4">How we charge?</p>
               <h3>Simple, Easy, Smart.</h3>
               <div class="hr-line my-4"></div>
@@ -379,69 +383,80 @@
 
     <section>
       <div class="container text-center">
-        <div>
-          <h2 class="mt-5">WHO WE ARE</h2>
+        <div class="ms-md-5">
+          <h2 class="mt-5 font-bold">WHO WE ARE</h2>
           <div class="d-flex justify-content-center align-items-start">
             <div class="hr-blue-line"></div>
           </div>
 
-          <p style="max-width: 1026px; margin-top: 10px">
+          <p style=" margin-top: 10px">
             Affuencer is a financial advisory company specializing in holistic
             fincial planning and advice. using only highly educated and well
             credentiated experts in the of Reterment planning. Expert in the
             fields of Retirement .Estate planning and Taxes.
           </p>
-        </div>
-        <div class="container mt-3 mb-4">
-          <div class="d-grid gap-3 grid-templates-3">
-            <div class="p-3 border border-dark-subtle text-white">
-              <div>
-                <img
-                  src="ITM_10003/Clients/Certified/3.jpg"
-                  style="padding-bottom: 45px"
-                />
-              </div>
-              <div class="pt-3">
-                <div class="d-flex justify-content-center align-items-center" style="height: 200px;">
-                  <h6 class="text-dark font-bold">
-                    CERTIFIED FINANCIAL PLANNER
-                  </h6>
+        
+        <div class="mt-3 mb-4">
+           
+          <div class="row">
+            <div class="col-lg-4 mt-2">
+              <div class="p-3 border border-dark-subtle text-white">
+                <div style="height: 180px;" class="d-flex justify-content-center align-items-center" >
+                  <img
+                    src="ITM_10003/Clients/Certified/3.jpg"
+                   
+                  />
                 </div>
+               
+                  <div >
+                    <h6 class="text-dark font-bold">
+                      CERTIFIED FINANCIAL PLANNER
+                    </h6>
+                  </div>
+                  <div class="align-items-center d-flex justify-content-center">
+                    <div class="hr-line-yellow"></div>
+                  </div>
+                  <div class="text-dark">
+                    Lorem ipsum ullam omnis sed. Deserunt doloribus tempore ullam
+                    delectus. Rem blanditiis aut magnam dolorem voluptatem
+                    expedita dolor omnis nostrum!
+                  </div>
+                
+              </div>
+            </div>
+            <div class="col-lg-4 mt-2">
+              <div class="p-3 border border-dark-subtle text-white">
+                <div style="height: 180px;" class="d-flex justify-content-center align-items-center"><img src="ITM_10003/Clients/Certified/2.jpg" /></div>
+                <h6 class="text-dark font-bold">CERTIFIED PUBLIC ACCOUNTANT</h6>
                 <div class="align-items-center d-flex justify-content-center">
                   <div class="hr-line-yellow"></div>
                 </div>
                 <div class="text-dark">
                   Lorem ipsum ullam omnis sed. Deserunt doloribus tempore ullam
-                  delectus. Rem blanditiis aut magnam dolorem voluptatem
-                  expedita dolor omnis nostrum!
+                  delectus. Rem blanditiis aut magnam dolorem voluptatem expedita
+                  dolor omnis nostrum!
+                </div>
+              </div>
+  
+            </div>
+            <div class="col-lg-4 mt-2">
+              <div class="p-3 border border-dark-subtle text-white">
+                <div style="height: 180px;" class="d-flex justify-content-center align-items-center"><img src="ITM_10003/Clients/Certified/1.jpg" /></div>
+                <h6 class="text-dark font-bold">CERTIFIED FINANCIAL ANALYST</h6>
+                <div class="align-items-center d-flex justify-content-center">
+                  <div class="hr-line-yellow"></div>
+                </div>
+                <div class="text-dark">
+                  Lorem ipsum ullam omnis sed. Deserunt doloribus tempore ullam
+                  delectus. Rem blanditiis aut magnam dolorem voluptatem expedita
+                  dolor omnis nostrum!
                 </div>
               </div>
             </div>
-            <div class="p-3 border border-dark-subtle text-white">
-              <div><img src="ITM_10003/Clients/Certified/2.jpg" /></div>
-              <h6 class="text-dark font-bold">CERTIFIED PUBLIC ACCOUNTANT</h6>
-              <div class="align-items-center d-flex justify-content-center">
-                <div class="hr-line-yellow"></div>
-              </div>
-              <div class="text-dark">
-                Lorem ipsum ullam omnis sed. Deserunt doloribus tempore ullam
-                delectus. Rem blanditiis aut magnam dolorem voluptatem expedita
-                dolor omnis nostrum!
-              </div>
-            </div>
-
-            <div class="p-3 border border-dark-subtle text-white">
-              <div><img src="ITM_10003/Clients/Certified/1.jpg" /></div>
-              <h6 class="text-dark font-bold">CERTIFIED FINANCIAL ANALYST</h6>
-              <div class="align-items-center d-flex justify-content-center">
-                <div class="hr-line-yellow"></div>
-              </div>
-              <div class="text-dark">
-                Lorem ipsum ullam omnis sed. Deserunt doloribus tempore ullam
-                delectus. Rem blanditiis aut magnam dolorem voluptatem expedita
-                dolor omnis nostrum!
-              </div>
-            </div>
+          </div>
+        </div>
+          
+           
           </div>
         </div>
       </div>
@@ -453,7 +468,7 @@
         <h2 class="text-light text-center p-0 m-0">
           Well... See for your self.
         </h2>
-        <div class="owl-carousel testimonial-carousel owl-theme p-3">
+        <div class="owl-carousel testimonial-carousel owl-theme p-3 ms-md-4">
           <div class="testimonial-item bg-light p-4">
             <blockquote class="testimonial-text mb-5">
               <img src="" alt="" /> "Neque est, qui dolorem ipsu porro quisquam
@@ -592,8 +607,8 @@
         <div class="ms-md-5">
           <h4 class="mt-5 fw-bold">MEET OUR ADVISORS</h4>
 
-          <div class="hr-line2 my-md-3"></div>
-          <div class="row gap-3 gap-md-0">
+          <div class="hr-line2 "></div>
+          <div class="row gap-3 gap-md-0 mt-4">
             <div class="col-lg-3 ps-0">
               <div class="d-flex gap-4 container justify-content-center">
                 <div class="card" style="width: 18rem">
@@ -709,7 +724,7 @@
         class="p-3 fs-4"
       >
         Call us! <span class="fw-bold">Phone Appointment are free.</span>
-        <span class="bg-light text-info p-2 px-3">+91 8888888888</span>
+        <span class="bg-light text-info p-2 px-3">(+91) 044-22-100</span>
       </div>
       <footer class="footer bg-dark text-white">
         <div class="container">
@@ -844,27 +859,28 @@
           loop: true,
           margin: 100,
           autoplay: true,
-          autoplayTimeout: 100000,
-          autoplayHoverPause: true,
+          autoplayTimeout: 1000,
           responsiveClass: true,
           responsive: {
             0: {
               items: 1,
               nav: true,
+              loop:true
             },
             600: {
               items: 1,
               nav: false,
+              loop:true
             },
             1000: {
               items: 2,
               nav: true,
-              loop: false,
+              loop: true,
             },
             1280: {
               items: 3,
               nav: true,
-              loop: false,
+              loop: true,
             },
           },
         });

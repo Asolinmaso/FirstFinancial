@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;800;900&display=swap');
 body{
   font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
 }
 .nav-bg {
   background-color: #f6ba18;
@@ -124,7 +125,7 @@ body{
   grid-template-columns: repeat(3, 3fr);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767.99px) {
   .head-img {
   background-position: -320px;
   background-size: auto;
@@ -142,7 +143,7 @@ body{
 .heading {
   width: 25rem;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767.99px) {
 
   .group-9{
     width: 200px !important;
@@ -157,17 +158,9 @@ body{
 }
 
 
-@media only screen and (max-width: 1027.99px) {
-
-  .grid-templates {
-    grid-template-columns: repeat(1, 0.8fr);
-    gap: 2rem !important;
-  }
-  
-}
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767.99px) {
 
     .nav-bg {
   background: transparent;
@@ -337,6 +330,10 @@ body{
 
 
 }
+
+.nav-res{
+  font-size: 14px;
+}
 .font-bold{
   font-weight: 800;
 }
@@ -349,4 +346,61 @@ body{
     height: 1px;
     border: 2px solid orange;
     display: block;
+}
+
+@media (min-width: 768px) and (max-width: 1023.99px) {
+
+  .grid-templates{
+    grid-template-columns: repeat(2, 340px);
+
+  }
+.banner-right{
+  width: 100%;
+  
+}
+.banner-row{
+  padding: 1rem;
+}
+.group-9{
+  width: 170px;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1279.99px) {
+
+  .logo {
+    width: 230px;
+    padding-top: 0.8rem !important;
+  }
+  .nav-res{
+    font-size: 12px;
+    column-gap: 12px;
+   }
+   .header-res{
+    font-size: 12px;
+  
+   }
+  .grid-templates{
+    grid-template-columns: repeat(2, 370px);
+
+  }
+
+.banner-row{
+  padding: 1rem;
+}
+.group-9{
+  width: 170px;
+}
+}
+
+@media (min-width: 1280px) and (max-width: 1280px) {
+
+ .nav-res{
+  font-size: 14px;
+  column-gap: 15px;
+ }
+ .header-res{
+  font-size: 12px;
+
+ }
 }
